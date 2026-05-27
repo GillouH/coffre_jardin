@@ -2,9 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <link href="stylesheets/index.css" rel="stylesheet" />
+        <link href="/src/stylesheets/login.css" rel="stylesheet" />
     </head>
     <body>
+        <h1>Page de login</h1>
         <table>
             <caption>Utilisateurs de l'application</caption>
             <tr>
@@ -20,6 +21,7 @@
                 </tr>
             <?php endforeach; ?>
         </table>
+        <a role="button" href="/">Retour</a>
 
         <pre><?php /* print_r($_SERVER); */ ?></pre>
     </body>
